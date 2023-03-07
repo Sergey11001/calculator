@@ -1,0 +1,25 @@
+.selector{
+  width: 250px;
+  background: #e7e7e7;
+  border-radius: 5px;
+  padding: 4px;
+  margin-bottom: 30px;
+  .list{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    .listItem{
+      display: flex;
+      gap: 4px;
+      border-radius: 5px;
+      padding: 0.5rem;
+      align-items: center;
+      cursor: pointer;
+      .blueBrackets{
+        color: #5d5fef;
+        font-weight: 700;
+      }
+    }
+  }
+}
